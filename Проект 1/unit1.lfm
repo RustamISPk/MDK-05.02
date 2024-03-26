@@ -1,0 +1,56 @@
+object Form1: TForm1
+  Left = 330
+  Height = 355
+  Top = 209
+  Width = 527
+  Caption = 'Form1'
+  ClientHeight = 355
+  ClientWidth = 527
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 168
+    Height = 20
+    Top = 64
+    Width = 226
+    Caption = 'Догадайтесь, кто сделал проект?'
+    Color = clHotLight
+    ParentColor = False
+    OnClick = Label1Click
+  end
+  object Button1: TButton
+    Left = 208
+    Height = 30
+    Top = 120
+    Width = 139
+    AutoSize = True
+    Caption = 'Щелкните здесь'
+    Color = clHighlight
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlue
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsItalic]
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+    OnKeyPress = Button1KeyPress
+  end
+  object Button2: TButton
+    Left = 392
+    Height = 31
+    Top = 216
+    Width = 94
+    Caption = 'Выход'
+    Color = clHighlight
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Label2: TLabel
+    Left = 164
+    Height = 1
+    Top = 185
+    Width = 1
+  end
+end
