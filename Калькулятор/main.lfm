@@ -1,0 +1,223 @@
+object Back: TBack
+  Left = 589
+  Height = 430
+  Top = 264
+  Width = 400
+  Caption = 'Калькулятор'
+  ClientHeight = 430
+  ClientWidth = 400
+  Constraints.MaxHeight = 430
+  Constraints.MaxWidth = 400
+  Constraints.MinHeight = 430
+  Constraints.MinWidth = 400
+  DesignTimePPI = 120
+  LCLVersion = '3.2.0.0'
+  object DeleteOneButton: TButton
+    Left = 27
+    Height = 60
+    Top = 72
+    Width = 128
+    Caption = '<-'
+    TabOrder = 0
+    OnClick = DeleteOneButtonClick
+  end
+  object ClearEditButton: TButton
+    Left = 168
+    Height = 60
+    Top = 72
+    Width = 60
+    Caption = 'ce'
+    TabOrder = 1
+    OnClick = ClearEditButtonClick
+  end
+  object ClearAllButton: TButton
+    Left = 240
+    Height = 60
+    Top = 72
+    Width = 60
+    Caption = 'с'
+    TabOrder = 2
+    OnClick = ClearAllButtonClick
+  end
+  object SqrtButton: TButton
+    Left = 315
+    Height = 60
+    Top = 72
+    Width = 60
+    Caption = 'Кор'
+    TabOrder = 3
+    OnClick = SqrtButtonClick
+  end
+  object NumberButton7: TButton
+    Left = 27
+    Height = 60
+    Top = 144
+    Width = 60
+    Caption = '7'
+    TabOrder = 4
+    OnClick = NumberButton7Click
+  end
+  object NumberButton8: TButton
+    Left = 96
+    Height = 60
+    Top = 144
+    Width = 60
+    Caption = '8'
+    TabOrder = 5
+    OnClick = NumberButton8Click
+  end
+  object NumberButton9: TButton
+    Left = 168
+    Height = 60
+    Top = 144
+    Width = 60
+    Caption = '9'
+    TabOrder = 6
+    OnClick = NumberButton9Click
+  end
+  object DivisionButton: TButton
+    Left = 240
+    Height = 60
+    Top = 144
+    Width = 60
+    Caption = '/'
+    TabOrder = 7
+    OnClick = DivisionButtonClick
+  end
+  object SqrButton: TButton
+    Left = 315
+    Height = 60
+    Top = 144
+    Width = 60
+    Caption = 'x^2'
+    TabOrder = 8
+    OnClick = SqrButtonClick
+  end
+  object NumberButton4: TButton
+    Left = 27
+    Height = 60
+    Top = 216
+    Width = 60
+    Caption = '4'
+    TabOrder = 9
+    OnClick = NumberButton4Click
+  end
+  object NumberButton5: TButton
+    Left = 96
+    Height = 60
+    Top = 216
+    Width = 60
+    Caption = '5'
+    TabOrder = 10
+    OnClick = NumberButton5Click
+  end
+  object NumberButton6: TButton
+    Left = 168
+    Height = 60
+    Top = 216
+    Width = 60
+    Caption = '6'
+    TabOrder = 11
+    OnClick = NumberButton6Click
+  end
+  object MultiplicationButton: TButton
+    Left = 240
+    Height = 60
+    Top = 216
+    Width = 60
+    Caption = '*'
+    TabOrder = 12
+    OnClick = MultiplicationButtonClick
+  end
+  object HyperboleButton: TButton
+    Left = 315
+    Height = 60
+    Top = 216
+    Width = 60
+    Caption = '1/x'
+    TabOrder = 13
+    OnClick = HyperboleButtonClick
+  end
+  object NumberButton1: TButton
+    Left = 27
+    Height = 60
+    Top = 288
+    Width = 60
+    Caption = '1'
+    TabOrder = 14
+    OnClick = NumberButton1Click
+  end
+  object NumberButton2: TButton
+    Left = 96
+    Height = 60
+    Top = 288
+    Width = 60
+    Caption = '2'
+    TabOrder = 15
+    OnClick = NumberButton2Click
+  end
+  object NumberButton3: TButton
+    Left = 168
+    Height = 60
+    Top = 288
+    Width = 60
+    Caption = '3'
+    TabOrder = 16
+    OnClick = NumberButton3Click
+  end
+  object MinusButton: TButton
+    Left = 240
+    Height = 60
+    Top = 288
+    Width = 60
+    Caption = '-'
+    TabOrder = 17
+    OnClick = MinusButtonClick
+  end
+  object NumberButton0: TButton
+    Left = 27
+    Height = 60
+    Top = 360
+    Width = 128
+    Caption = '0'
+    TabOrder = 18
+    OnClick = NumberButton0Click
+  end
+  object FloatButton: TButton
+    Left = 168
+    Height = 60
+    Top = 360
+    Width = 60
+    Caption = ','
+    TabOrder = 19
+    OnClick = FloatButtonClick
+  end
+  object PlusButton: TButton
+    Left = 240
+    Height = 60
+    Top = 360
+    Width = 60
+    Caption = '+'
+    TabOrder = 20
+    OnClick = PlusButtonClick
+  end
+  object EqualButton: TButton
+    Left = 315
+    Height = 132
+    Top = 288
+    Width = 60
+    Caption = '='
+    TabOrder = 21
+    OnClick = EqualButtonClick
+  end
+  object PrintField: TEdit
+    Left = 27
+    Height = 50
+    Top = 8
+    Width = 348
+    AutoSize = False
+    Color = clWhite
+    Enabled = False
+    TabOrder = 22
+  end
+end
