@@ -1,0 +1,137 @@
+object fEdit: TfEdit
+  Left = 980
+  Height = 461
+  Top = 247
+  Width = 424
+  BorderStyle = bsDialog
+  Caption = 'Редактор продукта'
+  ClientHeight = 461
+  ClientWidth = 424
+  DesignTimePPI = 120
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '3.2.0.0'
+  object fNameLabel: TLabel
+    Left = 8
+    Height = 20
+    Top = 8
+    Width = 198
+    Caption = 'Укажите название продукта:'
+  end
+  object fName: TEdit
+    Left = 8
+    Height = 28
+    Top = 32
+    Width = 380
+    TabOrder = 0
+  end
+  object fPriceLabel: TLabel
+    Left = 8
+    Height = 20
+    Top = 69
+    Width = 204
+    Caption = 'Укажите стоимость продукта:'
+  end
+  object fTypeLabel: TLabel
+    Left = 8
+    Height = 20
+    Top = 328
+    Width = 167
+    Caption = 'Выберите тип продукта:'
+  end
+  object fType: TComboBox
+    Left = 8
+    Height = 28
+    Top = 355
+    Width = 210
+    ItemHeight = 20
+    Items.Strings = (
+      'Мясо'
+      'Молочная продукция'
+      'Крупы'
+      'Кондитерское изделие'
+      'Хлебобулочные изделия'
+      'Алкоголь'
+      'Готовые блюда'
+    )
+    TabOrder = 1
+  end
+  object bSave: TBitBtn
+    Left = 48
+    Height = 38
+    Top = 400
+    Width = 160
+    Caption = 'Сохранить'
+    Default = True
+    Kind = bkOK
+    ModalResult = 1
+    TabOrder = 2
+  end
+  object bCancel: TBitBtn
+    Left = 216
+    Height = 38
+    Top = 400
+    Width = 160
+    Cancel = True
+    Caption = 'Не сохранять'
+    Kind = bkCancel
+    ModalResult = 2
+    TabOrder = 3
+  end
+  object factoryNameLabel: TLabel
+    Left = 8
+    Height = 20
+    Top = 135
+    Width = 172
+    Caption = 'Укажите производителя:'
+  end
+  object factoryName: TEdit
+    Left = 8
+    Height = 28
+    Top = 160
+    Width = 380
+    TabOrder = 4
+  end
+  object CaloryLabel: TLabel
+    Left = 8
+    Height = 20
+    Top = 195
+    Width = 163
+    Caption = 'Укажите калорийность:'
+  end
+  object HowManyLabel: TLabel
+    Left = 8
+    Height = 20
+    Top = 264
+    Width = 282
+    Caption = 'Укажите количество продукта на складе:'
+  end
+  object fPrice: TEdit
+    Left = 8
+    Height = 28
+    Top = 104
+    Width = 210
+    MaxLength = 4
+    TabOrder = 5
+    Text = '    '
+    OnKeyPress = fPriceKeyPress
+  end
+  object Calory: TEdit
+    Left = 8
+    Height = 28
+    Top = 224
+    Width = 100
+    MaxLength = 5
+    TabOrder = 6
+    Text = '     '
+  end
+  object HowMany: TEdit
+    Left = 8
+    Height = 28
+    Top = 296
+    Width = 100
+    MaxLength = 4
+    TabOrder = 7
+    Text = '    '
+  end
+end
